@@ -9,7 +9,7 @@ function getRandomIntNumber(min, max) {
 getRandomIntNumber();
 
 function getRandomFloatNumber(min, max, quantityConverter) {
-  if (max >= min || min > 0) {
+  if (max >= min && min > 0) {
     const numPowerConverter = Math.pow(10, quantityConverter);
     return Math.round((Math.random() * (max - min) + min) * numPowerConverter) / numPowerConverter;
   }
