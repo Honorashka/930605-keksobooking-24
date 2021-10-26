@@ -98,6 +98,8 @@ const generationOffer = () => {
   };
 };
 
+
 const createCards = (arrayLength) => Array.from({length: arrayLength}, generationOffer);
 createCards(MAX_LINE);
 
+export {generationOffer,createCards};
