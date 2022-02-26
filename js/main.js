@@ -2,7 +2,8 @@
 import './data.js';
 import './genaration.js';
 import {makeActive, makeDeactive} from './form-activation.js';
+import {validateForm} from './form-validation.js';
 
-
-makeActive();
 makeDeactive();
+makeActive();
+validateForm();
