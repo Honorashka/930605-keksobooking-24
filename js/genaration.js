@@ -37,7 +37,7 @@ const generationDataCards = (template) => {
   return cardElement;
 };
 
-// функция кол-во раз генерирования карчточек
+// функция кол-во раз генерирования карточек
 
 const addCardCanvas = (nmb) => {
   const cards = [];
