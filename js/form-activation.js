@@ -23,3 +23,4 @@ export const makeDeactive = () => {
   deactiveForm(adForm);
   deactiveForm(mapFilter);
 };
+
